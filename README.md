@@ -28,10 +28,16 @@
 
 ## git config --global core.editor <editor of choice> - set your global editor
  
-## git commit --amend -m "<new message>" - changes the commit message of the last commit to the new message provided
+## git commit --amend -m "<new message>" - if you forgot to add a file or you have a misspelling in your commit message. Overwrites the previous commit with new files and message
 
-## git commit --amend -m "<new message>" - if used on commit on staged messages then updates last commit and adds files like you did it correctly the first time
+## git reset HEAD <filename> - resets head from file in staging area, basically unstages file. Moves from Staging Area to Working Directory
 
-## git reset HEAD <filename> - resets head from file in staging area, basically unstages file
+## git checkout -- <filename> - removes modified version of file in working directory and puts it back into previously unmodified state, basically undoes any changes you did
 
-## git checkout -- <filename> - removes modified version of file and puts it back into previously unmodified state    
+## git branch <branchname> - create a new branch with the given name
+
+## git checkout <branchname> - switch to a new branch
+
+## git checkout -b <branchname> - create new branch and switch to it - quicker way to do first two steps in one
+
+## git branch -d <branchname> - delete existing branch with given name
