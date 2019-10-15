@@ -29,3 +29,9 @@
 ## git config --global core.editor <editor of choice> - set your global editor
  
 ## git commit --amend -m "<new message>" - changes the commit message of the last commit to the new message provided
+
+## git commit --amend -m "<new message>" - if used on commit on staged messages then updates last commit and adds files like you did it correctly the first time
+
+## git reset HEAD <filename> - resets head from file in staging area, basically unstages file
+
+## git checkout -- <filename> - removes modified version of file and puts it back into previously unmodified state    
