@@ -41,3 +41,20 @@
 ## git checkout -b <branchname> - create new branch and switch to it - quicker way to do first two steps in one
 
 ## git branch -d <branchname> - delete existing branch with given name
+
+## git branch - lists all of your branches and *what branch you are on
+
+## git branch - m <oldname> <newname> - to rename branches
+
+## git status - check stage of files and what branch you are on, check often to make sure you are where you think you are
+
+## git log - shows you history of commits and messages
+
+## git rebase - keeps history clean, moves history onto another branch - only use if you have been working locally not on a remote repository
+
+## git merge <branchname> - merge the histories of two branches into one branch, creates new commit on branch merged onto 
+
+## Merge Steps
+1. git checkout <branchname of branch to be mainbranch ex:develop branch> - Checkout the branch we want to merge changes into
+2. git merge <branch with changes ex:topicbranch> - pulls branch named into branch on. EX: be on develop git merge <topicbranch> to pull topicbranch into develop
+
